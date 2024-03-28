@@ -1,0 +1,236 @@
+[
+    {
+        "investors": [
+            {"name": "Jane Doe", "PAN": "XXXXX0000A"}
+        ], 
+        "as_on_date": "31-Mar-2022", 
+        "demat_accounts": [
+            {
+                "depository": "CDSL Demat Account", 
+                "dp_name": "MOTILAL OSWAL FINANCIAL SERVICES LIMITED", 
+                "client_id": "1111111100000000", 
+                "account_status": "Active", 
+                "as_on_date": "31-03-2022", 
+                "holdings": [
+                    { 
+                        "isin": "INE208C01025", "type": "None", "name": "AEGIS LOGISTICS LIMITED # NEW EQ SH WITH FV RS.1/- AFTER SUB DIVISION", "units": 524.0, "unit_value": 205.5, "total_value": 107682.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE540L01014", "type": "None", "name": "ALKEM LABORATORIES LIMITED # EQUITY SHARES", "units": 26.0, "unit_value": 3617.1, "total_value": 94044.6, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE462A01022", "type": "None", "name": "BAYER CROPSCIENCE LTD- RS 10/- (AFTER SUB-DIVISION)", "units": 17.0, "unit_value": 4982.5, "total_value": 84702.5, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE465A01025", "type": "None", "name": "BHARAT FORGE LIMITED - NEW EQUITY SHARES OF RS.2/- AFTER SPLIT", "units": 186.0, "unit_value": 701.9, "total_value": 130553.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE340A01012", "type": "None", "name": "BIRLA CORPORATION LIMITED [FORMERLY BIRLA JUTE & INDS]", "units": 80.0, "unit_value": 1179.45, "total_value": 94356.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE323A01026", "type": "None", "name": "BOSCH LIMITED - EQUITY SHARES OF RS.10/- EACH AFTER SUBDIVISION", "units": 10.0, "unit_value": 14442.85, "total_value": 144428.5, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE227W01023", "type": "None", "name": "CLEAN SCIENCE AND TECHNOLOGY LIMITED#NEW EQUITY SHARES WITH FACE VALUE RE.1/- AFTER SUB DIVISION", "units": 77.0, "unit_value": 1993.05, "total_value": 153464.85, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE111A01025", "type": "None", "name": "CONTAINER CORPORATION OF INDIA LIMITED#NEW EQUITY SHARES FACE VALUE RS. 5/- AFTER SUB DIVISION", "units": 237.0, "unit_value": 672.4, "total_value": 159358.8, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE298A01020", "type": "None", "name": "CUMMINS INDIA LIMITED - EQUITY SHARES - FV RS.2/-", "units": 126.0, "unit_value": 1123.85, "total_value": 141605.1, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE066A01021", "type": "None", "name": "EICHER MOTORS LIMITED#NEW EQUITY SHARES WITH FACE VALUE RE. 1/- AFTER SUBDIVISION", "units": 100.0, "unit_value": 2460.45, "total_value": 246045.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE548C01032", "type": "None", "name": "EMAMI LIMITED-NEW EQUITY SHARES OF RE. 1/- AFTER SUB- DIVISION", "units": 317.0, "unit_value": 447.8, "total_value": 141952.6, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE068V01023", "type": "None", "name": "GLAND PHARMA LIMITED#NEW EQUITY SHARES OF RE.1/- AFTER SUBDIVISION", "units": 92.0, "unit_value": 3269.15, "total_value": 300761.8, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE233A01035", "type": "None", "name": "GODREJ INDUSTRIES LIMITED - NEW EQUITY SHARES OF RE. 1/- AFTER SPLIT", "units": 314.0, "unit_value": 463.05, "total_value": 145397.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE094A01015", "type": "None", "name": "HINDUSTAN PETROLEUM CORPORATION LIMITED- EQUITY SHARES", "units": 460.0, "unit_value": 269.35, "total_value": 123901.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE090A01021", "type": "None", "name": "ICICI BANK LIMITED # NEW EQ SH WITH FV RS.2/- AFTER SUB- DIVISION", "units": 787.0, "unit_value": 730.25, "total_value": 574706.75, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE571A01038", "type": "None", "name": "IPCA LABORATORIES LIMITED#NEW EQUITY SHARES WITH FACE VALUE RE.1/- AFTER SUB-DIVISON", "units": 230.0, "unit_value": 1061.15, "total_value": 244064.5, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE154A01025", "type": "None", "name": "ITC LIMITED - EQUITY SHARES OF RE.1/- AFTER SPLIT", "units": 787.0, "unit_value": 250.8, "total_value": 197379.6, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE237A01028", "type": "None", "name": "KOTAK MAHINDRA BANK LIMITED-NEW EQUITY SHARES OF RS. 5/- AFTER SUB-DIVISION", "units": 262.0, "unit_value": 1754.7, "total_value": 459731.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE214T01019", "type": "None", "name": "LARSEN & TOUBRO INFOTECH LIMITED # EQUITY SHARES", "units": 27.0, "unit_value": 6157.0, "total_value": 166239.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE010V01017", "type": "None", "name": "L&T TECHNOLOGY SERVICES LIMITED # EQUITY SHARES", "units": 128.0, "unit_value": 5102.05, "total_value": 653062.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE018A01030", "type": "None", "name": "LARSEN & TOUBRO LIMITED- EQUITY SHARES OF RS.2/- EACH", "units": 46.0, "unit_value": 1767.45, "total_value": 81302.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE180A01020", "type": "None", "name": "MAX FINANCIAL SERVICES LIMITED#NEW EQUITY SHARES OF RS. 2/- AFTER SPLIT", "units": 402.0, "unit_value": 753.9, "total_value": 303067.8, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE761H01022", "type": "None", "name": "PAGE INDUSTRIES LIMITED - EQUITY SHARES", "units": 9.0, "unit_value": 43192.65, "total_value": 388733.85, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE062A01020", "type": "None", "name": "STATE BANK OF INDIA # NEW EQUITY SHARES OF FV RE. 1/- AFTER SUBDIVISION", "units": 373.0, "unit_value": 493.4, "total_value": 184038.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE467B01029", "type": "None", "name": "TATA CONSULTANCY SERVICES LIMITED-EQUITY SHARES 0F RE.1/- AFTER SUB DIVISION", "units": 28.0, "unit_value": 3738.8, "total_value": 104686.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE669C01036", "type": "None", "name": "TECH MAHINDRA LIMITED # NEW EQUITY SHARE WITH FACE VALUE RS.5/- AFTER SUB DIVISION", "units": 185.0, "unit_value": 1499.3, "total_value": 277370.5, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE825V01034", "type": "None", "name": "VEDANT FASHIONS LIMITED # EQUITY SHARES", "units": 91.0, "unit_value": 965.4, "total_value": 87851.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE226A01021", "type": "None", "name": "VOLTAS LIMITED - NEW EQUITY SHARES OF RE. 1/- AFTER SPLIT", "units": 334.0, "unit_value": 1244.5, "total_value": 415663.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }, 
+            {
+                "depository": "NSDL Demat Account", 
+                "dp_name": "KOTAK MAHINDRA BANK LIMITED", 
+                "client_id": "IN11111111111111", 
+                "account_status": "Active", 
+                "as_on_date": "31-03-2022", 
+                "holdings": [
+                    {
+                        "isin": "INE006I01046", "type": "None", "name": "ASTRAL LIMITED EQ NEW FV RE. 1/-", "units": 500.0, "unit_value": 2022.95, "total_value": 1011475.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE238A01034", "type": "None", "name": "AXIS BANK LIMITED EQ NE FV RS. 2/-", "units": 735.0, "unit_value": 761.15, "total_value": 559445.25, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE016A01026", "type": "None", "name": "DABUR INDIA LIMITED EQ F.V. RE.1", "units": 400.0, "unit_value": 536.2, "total_value": 214480.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE484J01027", "type": "None", "name": "GODREJ PROPERTIES LIMITED EQ NEW FV RS. 5/-", "units": 400.0, "unit_value": 1672.2, "total_value": 668880.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE040A01034", "type": "None", "name": "HDFC BANK LIMITED EQ NEW FV RE. 1/-", "units": 340.0, "unit_value": 1470.35, "total_value": 499919.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE039O01011", "type": "None", "name": "JASH ENGINEERING LIMITED EQ", "units": 605.0, "unit_value": 510.35, "total_value": 308761.75, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE124E01020", "type": "None", "name": "STEELCAST LIMITED EQ NEW FV RS.5/-", "units": 1290.70, "unit_value": 348.4, "total_value": 449679.88, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE467B01029", "type": "None", "name": "TATA CONSULTANCY SERVICES LIMITED EQ NEW FV RE.1/-", "units": 0.0, "unit_value": 3739.95, "total_value": 0.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE152A01029", "type": "None", "name": "THERMAX LIMITED EQ NEW FV RS.2/-", "units": 120.0, "unit_value": 1939.05, "total_value": 232686.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE632C01026", "type": "None", "name": "VIDHI SPECIALTY FOOD INGREDIENTS LIMITED EQ NEW FV RE.1/-", "units": 1080.0, "unit_value": 416.9, "total_value": 450252.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE226A01021", "type": "None", "name": "VOLTAS LIMITED EQ NEW FV RE.1/-", "units": 200.0, "unit_value": 1245.4, "total_value": 249080.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }, 
+            {
+                "depository": "NSDL Demat Account", 
+                "dp_name": "IIFL SECURITIES LIMITED", 
+                "client_id": "IN22222222222222", 
+                "account_status": "Active", 
+                "as_on_date": "31-03-2022", 
+                "holdings": [
+                    {
+                        "isin": "IN0020160027", "type": "None", "name": "CENTRAL GOVERNMENT LOAN 18615 SGB 05AG16 S I 2.75 FV RS 3119", "units": 150.0, "unit_value": 0.0, "total_value": 467850.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE003L07069", "type": "None", "name": "EMBASSY PROPERTY DEVELOPMENTS PRIVATE LIMITED BR NCD 02MR30 FVRS575604", "units": 1.0, "unit_value": 0.0, "total_value": 575604.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE031A07832", "type": "None", "name": "HOUSING AND URBAN DEVELOPMENT CORPORATION LIMITED 8.1/8.22 BD 05MR22 FVRS1000 LOA UPTO 31MY12", "units": 0.0, "unit_value": 0.0, "total_value": 0.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INF732E01037", "type": "None", "name": "NIPPON INDIA MUTUAL FUND ETF LIQUID BeES", "units": 24.568, "unit_value": 1000.0, "total_value": 24568.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE020B07LB0", "type": "None", "name": "REC LIMITED 5.75 BD 30NV23 FVRS10000", "units": 50.0, "unit_value": 0.0, "total_value": 500000.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }
+        ], 
+        "folio_accounts": [
+            {
+                "folio_no": "111111/22", 
+                "holdings": [
+                    {
+                        "isin": "INF109K01FN1", "type": "None", "name": "02 - ICICI Prudential Long Term Equity Fund (Tax Saving) - IDCW", "units": 498.504, "unit_value": 22.72, "total_value": 11326.01, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    },
+                    {
+                        "isin": "INF879O01027", "type": "None", "name": "Parag Parikh Flexi Cap Direct Growth Plan", "units": 20000, "unit_value": 52.5141, "total_value": 1050280.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }
+        ]
+    }, {
+        "investors": [
+            {"name": "Jane Doe", "PAN": "XXXXX0000A"}, 
+            {"name": "John Doe", "PAN": "YYYYY1111B"}
+        ], 
+        "as_on_date": "31-Mar-2022", 
+        "demat_accounts": [
+            {
+                "depository": "NSDL Demat Account", 
+                "dp_name": "ICICI BANK LIMITED", 
+                "client_id": "IN33333333333333", 
+                "account_status": "Active", 
+                "as_on_date": "31-03-2022", 
+                "holdings": [
+                    {
+                        "isin": "INE540L01014", "type": "None", "name": "ALKEM LABORATORIES LIMITED EQ", "units": 62.0, "unit_value": 3620.7, "total_value": 224483.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE079A01024", "type": "None", "name": "AMBUJA CEMENTS LIMITED EQ NEW FV RS. 2/-", "units": 444.0, "unit_value": 299.25, "total_value": 132867.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE021A01026", "type": "None", "name": "ASIAN PAINTS LIMITED EQ NEW FV Re. 1/-", "units": 59.0, "unit_value": 3079.95, "total_value": 181717.05, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE463A01038", "type": "None", "name": "BERGER PAINTS INDIA LIMITED EQ NEW FV RE. 1/-", "units": 267.0, "unit_value": 699.7, "total_value": 186819.9, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE216A01030", "type": "None", "name": "BRITANNIA INDUSTRIES LIMITED EQ NEW FV RS 1", "units": 89.0, "unit_value": 3206.4, "total_value": 285369.6, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE059A01026", "type": "None", "name": "CIPLA LIMITED EQ NEW FV RS.2/-", "units": 259.0, "unit_value": 1018.05, "total_value": 263674.95, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE259A01022", "type": "None", "name": "COLGATE- PALMOLIVE (INDIA) LIMITED EQ NEW FV RS.1/-", "units": 171.0, "unit_value": 1542.25, "total_value": 263724.75, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE016A01026", "type": "None", "name": "DABUR INDIA LIMITED EQ F.V. RE.1", "units": 601.0, "unit_value": 536.2, "total_value": 322256.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE361B01024", "type": "None", "name": "DIVI'S LABORATORIES LIMITED EQ NEW RS. 2/-", "units": 46.0, "unit_value": 4402.05, "total_value": 202494.3, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE047A01021", "type": "None", "name": "GRASIM INDUSTRIES LIMITED EQ NEW FV RS. 2/-", "units": 156.0, "unit_value": 1664.0, "total_value": 259584.0, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE176B01034", "type": "None", "name": "HAVELLS INDIA LIMITED EQ NEW FV RE. 1/-", "units": 112.0, "unit_value": 1152.55, "total_value": 129085.6, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE860A01027", "type": "None", "name": "HCL TECHNOLOGIES LIMITED EQ F.V. RS.2/-", "units": 161.0, "unit_value": 1163.75, "total_value": 187363.75, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE030A01027", "type": "None", "name": "HINDUSTAN UNILEVER LIMITED EQ F.V. RS 1", "units": 114.0, "unit_value": 2048.65, "total_value": 233546.1, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE009A01021", "type": "None", "name": "INFOSYS LIMITED EQ FV RS 5", "units": 162.0, "unit_value": 1906.85, "total_value": 308909.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE196A01026", "type": "None", "name": "MARICO LIMITED NEW EQ RE.1", "units": 562.0, "unit_value": 503.7, "total_value": 283079.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE018I01017", "type": "None", "name": "MINDTREE LIMITED EQ", "units": 63.0, "unit_value": 4302.9, "total_value": 271082.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE239A01016", "type": "None", "name": "NESTLE INDIA LIMITED EQ", "units": 14.0, "unit_value": 17380.55, "total_value": 243327.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE318A01026", "type": "None", "name": "PIDILITE INDUSTRIES LIMITED EQ NEW FV RE.1/-", "units": 103.0, "unit_value": 2454.3, "total_value": 252792.9, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE123W01016", "type": "None", "name": "SBI LIFE INSURANCE COMPANY LIMITED EQ", "units": 201.0, "unit_value": 1121.45, "total_value": 225411.45, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE003A01024", "type": "None", "name": "SIEMENS LIMITED EQ NEW FV RS.2/-", "units": 76.0, "unit_value": 2368.2, "total_value": 179983.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE647A01010", "type": "None", "name": "SRF LIMITED EQ", "units": 103.0, "unit_value": 2679.35, "total_value": 275973.05, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE467B01029", "type": "None", "name": "TATA CONSULTANCY SERVICES LIMITED EQ NEW FV RE.1/-", "units": 76.0, "unit_value": 3739.95, "total_value": 284236.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE192A01025", "type": "None", "name": "TATA CONSUMER PRODUCTS LIMITED EQ NEW F.V. RE.1/-", "units": 338.0, "unit_value": 777.4, "total_value": 262761.2, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE669C01036", "type": "None", "name": "TECH MAHINDRA LIMITED EQ NEW FV RS. 5/-", "units": 125.0, "unit_value": 1499.45, "total_value": 187431.25, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE280A01028", "type": "None", "name": "TITAN COMPANY LIMITED EQ NEW Re.1/-", "units": 91.0, "unit_value": 2536.15, "total_value": 230789.65, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE685A01028", "type": "None", "name": "TORRENT PHARMACEUTICALS LIMITED EQ NEW FV RS.5/-", "units": 59.0, "unit_value": 2791.95, "total_value": 164725.05, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE813H01021", "type": "None", "name": "TORRENT POWER LIMITED EQ NEW FV RS.10/-", "units": 229.0, "unit_value": 491.85, "total_value": 112633.65, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE854D01024", "type": "None", "name": "UNITED SPIRITS LIMITED EQ NEW FV RS. 2/-", "units": 237.0, "unit_value": 888.35, "total_value": 210538.95, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE226A01021", "type": "None", "name": "VOLTAS LIMITED EQ NEW FV RE.1/-", "units": 136.0, "unit_value": 1245.4, "total_value": 169374.4, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }, {
+                        "isin": "INE075A01022", "type": "None", "name": "WIPRO LIMITED EQ F.V. RS. 2", "units": 342.0, "unit_value": 591.9, "total_value": 202429.8, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }
+        ], 
+        "folio_accounts": [
+            {
+                "folio_no": "22222222/1", 
+                "holdings": [
+                    {
+                        "isin": "INF090I01TF4", "type": "None", "name": "926 - Franklin India Income Opportunities Fund- Segregated Portfolio 2 (10.90% Vodafone Idea Ltd 02Sep2023)", "units": 53603.061, "unit_value": 0.4819, "total_value": 25831.32, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }, {
+                "folio_no": "44444444/34", 
+                "holdings": [
+                    {
+                        "isin": "INF109K01VP3", "type": "None", "name": "1564 - ICICI Prudential Liquid Fund - Daily IDCW", "units": 124.822, "unit_value": 100.1482, "total_value": 12500.7, "coupon_rate": 0, "maturity_date": null, "info": {}
+                    }
+                ]
+            }
+        ]
+    }
+]

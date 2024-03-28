@@ -1,0 +1,172 @@
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: 'pms'
+servers:
+  - url: 'localhost:3000'
+paths:
+  /pms:
+    get:
+      operationId: listPMS
+      parameters:
+        - name: scheme_id
+          in: query
+          description: id of the scheme from Finalyca database
+          required: true
+          schema:
+            type: integer
+            format: int64
+        - name: ts
+          in: query
+          description: date in string defined by RFC3339
+          required: true
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: 'Returns factsheet of the fund for the given date'
+          content:
+            application/json:
+                schema:                 
+                  $ref: '#/components/schemas/PMS'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    PMS:
+      type: object
+      properties:
+        name:
+            type: string
+            description: Name of the scheme
+        amc:
+            type: string
+            description: Name of the AMC
+        as_on_date:
+            type: string
+            format: date
+        net_assets:
+            type: string
+        fund_manager:
+            type: string
+        classification:
+            type: string
+        benchmark:
+            type: string
+        expense_ratio:
+            type: string
+        fee_structure:
+            type: string
+        exit_load:
+            type: string
+        investment_style:
+            $ref: '#/components/schemas/investment_style_obj'
+        fund_performance:
+            $ref: '#/components/schemas/performance'
+        benchmark_performance:
+            $ref: '#/components/schemas/performance'
+        std:
+            type: number
+            format: float
+        alpha:
+            type: number
+            format: float
+        beta:
+            type: number
+            format: float
+        nav:
+            type: number
+            format: float
+        aum:
+            type: number
+            format: float
+        sectors:
+            type: array
+            items:                  
+                $ref: '#/components/schemas/sectors'
+        holdings:
+            type: array
+            items:                  
+                $ref: '#/components/schemas/holdings'
+    sectors:
+      type: object
+      properties:
+        name:
+          type: string
+        weight:
+          type: number
+          format: float
+    holdings:
+      type: object
+      properties:
+        name:
+          type: string
+        weight:
+          type: number
+          format: float
+    investment_style_obj:
+      type: object
+      properties:
+        large_cap:
+          $ref: '#/components/schemas/investment_style_prop'
+        mid_cap:
+          $ref: '#/components/schemas/investment_style_prop'
+        small_cap:
+          $ref: '#/components/schemas/investment_style_prop'
+    investment_style_prop:
+      type: object
+      properties:
+        blend:
+          type: number
+          format: float
+        growth:
+          type: number
+          format: float
+        value:
+          type: number
+          format: float
+    performance:
+      type: object
+      properties:
+        3_months:
+          type: number
+          format: float
+        6_months:
+          type: number
+          format: float
+        1_yr:
+          type: number
+          format: float
+        3_yr:
+          type: number
+          format: float
+        5_yr:
+          type: number
+          format: float
+        since_inception:
+          type: number
+          format: float
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+        description:
+          type: string
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+security:
+  - BasicAuth: []

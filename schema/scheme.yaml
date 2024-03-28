@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  version: '1.0'
+  title: 'schemes'
+servers:
+  - url: 'localhost:3000'
+paths:
+  /scheme:
+    get:
+      operationId: listScheme
+      parameters:
+        - name: sebi_code
+          in: query
+          description: SEBI code of the AMC
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Returns list of offerings for an AMC'
+          content:
+            application/json:
+                schema:
+                    type: array
+                    items:                  
+                        $ref: '#/components/schemas/Scheme'
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    Scheme:
+      type: object
+      properties:
+        id:
+            type: integer
+            format: int64
+        name:
+            type: string
+        description:
+            type: string
+        code:
+            type: string
+        scheme_category:
+            type: string
+            enum:
+              - pms
+              - aif
+              - mf
+              - ulip
+        website:
+            type: string
+            format: url
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+        description:
+          type: string
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+security:
+  - BasicAuth: []

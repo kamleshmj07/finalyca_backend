@@ -1,0 +1,70 @@
+# deploy: prod
+DATABASE_URI: 'mssql+pyodbc://localhost/PMS_Base'
+server: 'localhost' # to specify an alternate port
+database: 'PMS_Base' 
+IMAGE_PATH: 'https://api.finalyca.com/'
+
+# Email Settings
+EMAIL_ID: no-reply@finalyca.com
+EMAIL_PASS: Pms@1234
+EMAIL_SERVER: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_SECURITY: TLS
+
+# SMS Settings
+SMS_URL: "http://139.99.131.165:6005/api/v2/SendSMS?"
+SMS_SENDER_ID : "FNLYCA"
+SMS_IS_UNICODE : False
+SMS_IS_FLASH : False
+SMS_API_KEY : "71715eba-3e2a-4de2-94db-b561fd1eb7ee"
+SMS_CLIENT_ID : "ec68328b-8d18-493e-8f12-3e24f85b140d"
+SECRET_KEY: 'Y80fXwvC5LXqYMPGVS1UOjvfz0QlXnxq123QtOxoau293ZGWAOioceWzOMWpd9w'
+
+# AES Settings
+AES_KEY: "8181818180808080"
+AES_IV: "8080808081818181"
+
+# Access Keys
+api_keys:
+  - entity: demo
+    api_key: HFtAHLSlX8I1mPCGqzeAGLOdky2vNRVwX9v3c57M
+  - entity: customer_1
+    api_key: 8cvPJBGeh8s6l5j7oH7lVWSqj3Rl6JQ0v7PgLO63c
+
+# make sure to change
+DOC_ROOT_PATH: 'C:\_Finalyca\Finalyca\Finalyca\API_Layer'
+WHITELABEL_DIR: 'WhiteLabel'
+IMAGES_DIR: 'Images'
+UPLOAD_DIR: 'Uploads'
+USER_PROFILE_DIR: 'Profile'
+GENERATEREPORT_DIR: 'generated_reports'
+GSQUARE_URL: 'http://localhost:5000/lib/finalyca/performance/get_attribution'
+TRIAL_USER_MAIL_TO: 'dimple.turakhia@finalyca.com;philip.shah@finalyca.com;sachin.jaiswal@finalyca.com;himanshu.sharma@finalyca.com'
+REPORT_GENERATION_PATH: 'D:\finalyca_dev\backend\generated_reports'
+REPORT_EXPIRY_PERIOD_IN_MIN: 1440 #1day
+
+# Razorpay integration
+RAZORPAY_TEST_ID: 'rzp_test_8FOQadpSiufGk9'
+RAZORPAY_TEST_SECRET: 'EQlvxINCZfmoCffsolJYMUbV'
+
+RAZORPAY_PROD_ID: 'rzp_live_lQCVvum9HCYjWf'
+RAZORPAY_PROD_SECRET: 'eIr8aEQFL2cOFKd80tiJRf79'
+
+#CMOTS FTP Detail
+CMOTS_FTP_HOST: '203.197.64.8'
+CMOTS_FTP_PORT: 21
+CMOTS_FTP_USER: 'finalyca'
+CMOTS_FTP_PASS: 'FiNa1LcA'
+CMOTS_FTP_DIR: 'E:\\Finalyca\\ServiceManager\\Imports\\'
+CMOTS_FTP_REMOTE_DIR: '/Mutual/@ddmmyyyy/'
+CMOTS_FTP_DAY: -2
+
+# Account Aggregator Settings
+PERFIOS_BASE_URL: "https://fiu.perfios.com/fiu"
+PERFIOS_FINALYCA_API_KEY: "db2113a28c175e01e03e847aada0ee8e376b4d630366cd73a2a6d30e3c12652b"
+PERFIOS_FINALYCA_ORG_CODE: "Finalyca_FIU001"
+PERFIOS_FINALYCA_PROFILE_ID: "finalyca_001"
+PERFIOS_WHITELISTED_IP: ''
+PERFIOS_CALLBACKS_ENDPOINTS: 
+- /account_aggregator/perfios/consent_callback
+- /account_aggregator/perfios/fetch_callback
