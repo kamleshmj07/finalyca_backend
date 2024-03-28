@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .button {
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .subscribe {
+            background-color: #E4813B;
+        }
+
+        .survey {
+            background-color: #3A50B2;
+        }
+
+        .button_radius {border-radius: 12px}
+
+        </style>
+    </head>
+    <body>
+        <table align="center" style="width: 800px; border: 3px solid #ddd; font-family:sans-serif,Arial, Helvetica; font-size:14px; padding:0px; line-height:25px;">
+            <tr>
+                <td style="text-align: center; border-bottom: 3px solid #ddd;">
+                    <img src="Images/logo.png" />
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <h1 style="margin: 0px; margin-bottom:25px; margin-top:15px; ">Welcome to Finalyca</h1>
+                    <span>Dear <b>{{name}}</b>,</span>
+                    <p style="margin: 0px; ">How did we do?</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <p style="margin: 0px; ">We hope you are enjoying Finalyca portal and that you find it’s insightful and easy to use.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <p style="margin: 0px; ">We’re constantly striving to provide excellent service to our users on portal</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <p style="margin: 0px; ">We’d love to get your feedback through a brief customer survey.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <span>
+                        <button class="button button_radius survey">TAKE OUR SURVEY</button>
+                        <button class="button button_radius subscribe">SUBSCRIBE</button>
+                    </span> 
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <p style="margin: 0px; ">For any queries , please write to <a href="mailto: support@finalyca.com" style="color:#F47921;">support@finalyca.com</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; ">
+                    <p style="margin: 0px; ">Regards,<br />Team Finalyca </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background: #F7941D; padding: 10px;">
+                    <p style="font-size:11px; color:#fff;"><b>DISCLAIMER:</b> This communication is confidential and privileged and is directed to and for the use of the addressee only. The recipient if not the addressee should not use this message if erroneously received, and access and use of this e-mail in any manner by anyone other than the addressee is unauthorized. Before opening and accessing the attachment, if any, please check and scan for virus. </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

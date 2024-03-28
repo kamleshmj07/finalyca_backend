@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 800px;
+            border: 3px solid #ddd;
+            font-family: sans-serif, Arial, Helvetica;
+            font-size: 14px;
+            padding: 0px;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+        td {
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .footer {
+            background: #F7941D;
+            padding: 10px;
+        }
+        .footer p {
+            font-size: 11px;
+            color: #fff;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="Images/logo.png" alt="Company Logo" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=" margin: 0px;" >Dear {{ amc_name }},</p>
+                <p style=" margin: 0px;" >I hope this message finds you well. {{ user_name }}, provided below, is keen on investing in your {{ plan_name }} after being impressed by your factsheet.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="investor_td">
+                <p><strong>INVESTOR DETAILS:</strong></p>
+                <p style="font-size: 12px;">Name: {{ user_name }}</p>
+                <p style="font-size: 12px;">Email: {{ user_email_id }}</p>
+                <!-- <p>Contact: {Investor's Phone Number}</p> -->
+                <p>They are ready to consider your {{ plan_name }} as an Investor. Feel free to contact them directly or let us know how we can facilitate this connection further.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Best regards,</p>
+                <p>Finalyca Technologies Ltd.</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer">
+                <p><strong>DISCLAIMER:</strong> This communication is confidential and privileged and is directed to and for the use of the addressee only. The recipient, if not the addressee, should not use this message if erroneously received, and access and use of this e-mail in any manner by anyone other than the addressee is unauthorized. Before opening and accessing the attachment, if any, please check and scan for a virus.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
